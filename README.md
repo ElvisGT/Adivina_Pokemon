@@ -1,40 +1,23 @@
-# Pokemon-Game
+# Juego de adivinar el pokemón
 
-This template should help get you started developing with Vue 3 in Vite.
+***Jugabilidad***:
 
-## Recommended IDE Setup
+Debemos elegir la imagen del pokemon correcta para mantener las vidas iniciales, al equivocarnos perdemos 1 vida y al llegar a 0 el contador habremos perdido la partida.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Para ejecutar el juego debes seguir los siguientes pasos
 
-## Type Support for `.vue` Imports in TS
+1. Clonar el repositorio con el comando
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+ `git clone https://github.com/ElvisGT/Adivina_Pokemon.git`
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+2. Entrar en el directorio del proyecto con el comando
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+ `cd Adivina_Pokemon`
 
-## Customize configuration
+3. Instalar las dependencias con el comando
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+ `npm install`
 
-## Project Setup
+4. Ejecutar la aplicación con el comando
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+ `npm run dev`
